@@ -10,7 +10,8 @@
    🪢 I have excluded any type of non numerical and irrelvant data inorder to make sure there were no errors.
    🪢 Under the division of the heat map, we have used seaborn module to make a coorelation factor.
    🪢 Also we have implmented the use of msno to see the matrix grid of the whole data set under the shade.
-STAGE III: Model Building
+   
+**STAGE III: Model Building**
  🪢 Under this , we have set 2 varibales for our linear regression modeling.
    🪢 X = train_set[['LotArea','YearBuilt','YrSold','BsmtFullBath', 'BsmtHalfBath', 'FullBath', 'BedroomAbvGr']]
        y = train_set[['SalePrice']]
